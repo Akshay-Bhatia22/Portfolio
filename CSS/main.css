@@ -31,14 +31,21 @@
 }
 
 img.pro-pic {
+    background-color: black;
+    border-radius: 100%;
     width:45%;
-    padding:2%
+    padding:2.5%
 }
-
+img.pro-pic:hover{
+    background-color: tomato;
+}
 h1.full-name
 {
     font-family: 'Merienda', cursive;
     font-size: 8vw;;
+}
+h1.full-name:hover{
+    color: tomato;
 }
 .navbar ul{
     height:auto;
@@ -57,6 +64,7 @@ h1.full-name
     list-style-type: none;
     text-decoration: none;
     padding:1%;
+    padding-left: 3%;
     display:inline-block;
     overflow:hidden;
     background-color: black;
@@ -98,4 +106,16 @@ p {
 .foot-note{
     color: white;
     background-color: black;
+}
+.sdbs {
+    display: block;
+    max-width: 50%;
+    min-width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:2%;
+    overflow:hidden
+}
+.sdbs-title {
+    text-align: center;
 }
