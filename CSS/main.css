@@ -5,32 +5,31 @@
 .flex-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-    align-content: center;
 }
   
 @media (min-width: 768px) {
     .flex-container {
     display:flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-    align-content: center;
     }
 }
+.flex-container >div{
+    padding:5%;
+    margin:auto;
+}
+
 img.pro-pic {
     width:45%;
-    /* padding: 10%;
-    margin:auto; */
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    
+    padding:2%
 }
-.c2 {
-    padding: 10%;
+
+h1.full-name
+{
+    font-size: 8vw;;
 }
 .navbar ul{
     height:auto;
@@ -56,4 +55,11 @@ img.pro-pic {
 .container,.title {
     color:blue;
     text-align:center;
+}
+
+.skills-section {
+    text-align: center;
+}
+.skills-img {
+    width:30%;
 }
